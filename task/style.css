@@ -1,0 +1,28 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	padding: 50px 0;
+}
+#profile .card .card-img-top{
+	width: 100%;
+}
+
+#other_info .card{	
+	margin: 1px 0 20px 0;
+}
+#other_info .card #app-education{
+		padding: 0;
+}
+#other_info .card #app-education .dates{
+	position: absolute;
+	top: 1rem;
+	right: 1.25rem;
+}
+#other_info .card #app-education .card-block{
+	padding: 20px;
+}
+
+#projects .card .card-img-top{
+	width: 100%;
+}
