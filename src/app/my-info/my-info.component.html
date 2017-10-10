@@ -1,0 +1,33 @@
+
+<!-- <div class="card">
+	<div id="my-info-block">
+		<img src="https://avatars2.githubusercontent.com/u/19777595?v=4&s=400&u=0498b72d353781bfc1fe50c4e23f68bffb4a0d26" alt="Not Found" class="card-img-top">
+		<div class="card-block">
+			<h4 class="card-title">{{myData.spec}}</h4>
+			<p class="card-text">
+				{{myData.description}}
+			</p>
+		</div>
+		<div class="list-group list-group-flush">
+			<li *ngFor="let item of myData.skills" class="list-group-item">{{item}}</li>
+		</div>
+	</div>
+</div> -->
+
+<mat-card id="my-info-block">
+	<img mat-card-image src="https://avatars2.githubusercontent.com/u/19777595?v=4&s=400&u=0498b72d353781bfc1fe50c4e23f68bffb4a0d26" alt="Not Found">
+	<mat-card-content>
+		<h4 class="card-title">{{myData.spec}}</h4>
+		<p class="card-text">
+			{{myData.description}}
+		</p>
+	</mat-card-content>
+	<div class="list-group list-group-flush">
+		<li *ngFor="let item of myData.skills" class="list-group-item"><img class="mat-card-avatar" src="{{item.icon}}">{{item.name}}</li>
+	</div>
+	<mat-card-actions>
+		<a mat-icon-button href="https://github.com/andreikazmirovich"><i class="fa fa-github" aria-hidden="true"></i></a>
+		<a mat-icon-button href="https://plus.google.com/u/0/105430476183982650670"><i class="fa fa-google" aria-hidden="true"></i></a>
+		<a mat-icon-button href="https://www.linkedin.com/in/andrei-kazmirovich-a53592123/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+	</mat-card-actions>
+</mat-card>

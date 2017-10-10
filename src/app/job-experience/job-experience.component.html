@@ -1,0 +1,12 @@
+<mat-card *ngFor="let item of jobsData">
+	<div id="app-job-experience">
+		<h3 class="card-header">{{item.title}}</h3>
+		<span class="dates">{{item.startDate}} - {{item.endDate}}</span>
+		<mat-card-content>
+			<h4 class="card-title">{{item.where}}</h4>
+			<p class="card-text">
+				{{item.desc}}
+			</p>
+		</mat-card-content>
+	</div>
+</mat-card>

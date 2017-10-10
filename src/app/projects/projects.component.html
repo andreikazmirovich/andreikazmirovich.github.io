@@ -1,0 +1,31 @@
+<!-- <div id="projectsBlock" class="col-md-12">
+	<div class="row">
+		<div class="col-sm-6 col-md-4" *ngFor="let item of projectsData">
+			<div class="card">
+				<img class="card-img-top" src="{{item.image}}" alt="Not Found">
+				<div class="card-block">
+				   	<h4 class="card-title">{{item.title}}</h4>
+				    <p class="card-text">{{item.desc}}</p>
+			    	<a *ngIf="item.link !== ''; else disable" href="{{item.link}}" class="btn btn-primary">Check it!</a>
+			    	<ng-template #disable><a href="{{item.link}}" class="btn btn-primary disabled">Check it!</a></ng-template>
+				</div>
+			</div>
+		</div>
+	</div>
+</div> -->
+
+<div id="projectsBlock" class="col-md-12">
+	<div class="row">
+		<div class="col-sm-6 col-md-4" *ngFor="let item of projectsData">
+			<mat-card>
+				<img class="card-img-top" src="{{item.image}}" alt="Not Found">
+				<mat-card-content>
+					<h4 class="card-title">{{item.title}}</h4>
+					<p class="card-text">{{item.desc}}</p>
+				    <a *ngIf="item.link !== ''; else disable" href="{{item.link}}" mat-raised-button color="primary">Check it!</a>
+				    <ng-template #disable><a href="{{item.link}}" mat-raised-button disabled>Check it!</a></ng-template>
+				</mat-card-content>
+			</mat-card>
+		</div>
+	</div>
+</div>

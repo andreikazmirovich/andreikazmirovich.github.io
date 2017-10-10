@@ -1,0 +1,25 @@
+<!-- <div class="card" *ngFor="let item of educData">
+	<div id="app-education">
+		<h3 class="card-header">{{item.title}}</h3>
+		<span class="dates">{{item.startDate}} - {{item.endDate}}</span>
+		<div class="card-block">
+			<h4 class="card-title">{{item.where}}</h4>
+			<p class="card-text">
+				{{item.desc}}
+			</p>
+		</div>
+	</div>
+</div> -->
+
+<mat-card *ngFor="let item of educData">
+	<div id="app-education">
+		<h3 class="card-header">{{item.title}}</h3>
+		<span class="dates">{{item.startDate}} - {{item.endDate}}</span>
+		<mat-card-content>
+			<h4 class="card-title">{{item.where}}</h4>
+			<p class="card-text">
+				{{item.desc}}
+			</p>
+		</mat-card-content>
+	</div>
+</mat-card>

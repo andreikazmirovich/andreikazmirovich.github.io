@@ -1,0 +1,38 @@
+[
+	{
+		"title": "Light Side",
+		"image": "../../data/projects-img/lightSide.png",
+		"desc": "Website with different IT news",
+		"link": "http://solightside.zzz.com.ua"
+	},
+	{
+		"title": "Spaced",
+		"image": "../../data/projects-img/spaced.png",
+		"desc": "Single page application where I can automatically get fresh news from 'The Verge', translate it and correct mistakes",
+		"link": "https://github.com/andreikazmirovich/spaced_startpage"
+	},
+	{
+		"title": "My Little Story",
+		"image": "../../data/projects-img/myLittleStory.png",
+		"desc": "Game telling us about cyborg-girl's story in 2034",
+		"link": ""
+	},
+	{
+		"title": "Tajam",
+		"image": "../../data/projects-img/tajam.png",
+		"desc": "Landing page for 'Tajam' company",
+		"link": ""
+	},
+	{
+		"title": "ArchitectureX",
+		"image": "../../data/projects-img/architectureX.png",
+		"desc": "Landing page for 'ArchitectureX' company",
+		"link": ""
+	},
+	{
+		"title": "Smart",
+		"image": "../../data/projects-img/smart.png",
+		"desc": "Landing page for 'Smart' company",
+		"link": ""
+	}
+]
