@@ -1,0 +1,36 @@
+{
+	"name": "Andrew",
+	"sName": "Kazmirovich",
+	"spec": "Front-end developer",
+	"description": "Кароч я собі програміст, люблю компутори ріхтувати і Швінтуси переустанавлювать",
+	"skills": [
+		{
+			"name" : "JavaScript (ES 5/6)",
+			"icon" : "https://lh3.googleusercontent.com/proxy/XIfQroDwR9RPnqPCDRemzxWicvoHVQ6_TIT2b7Sel8f5ZpyPbbb5VKIBEv2UowG5-9_M63lvYQZCRd-Y=s110-p-k"
+		},
+		{
+			"name" : "HTML5/CSS3",
+			"icon" : "http://122.165.104.216/rjtapps/v2/wp-content/uploads/2015/04/html5.jpg"
+		},
+		{
+			"name" : "Angular 4",
+			"icon" : "http://coreui.io/assets/img/logo-angularjs.png"
+		},
+		{
+			"name" : "Bootstrap 4",
+			"icon" : "http://mumbainstech.esy.es/images/company5.png"
+		},
+		{
+			"name" : "jQuery",
+			"icon" : "http://www.polatbuyukarslan.com/wp-content/uploads/jquery.jpg"
+		},
+		{
+			"name" : "Less",
+			"icon" : "http://iamhitchhiker.com/wp-content/uploads/2016/03/less-logo-150x150.png"
+		},
+		{
+			"name" : "Git (GitHub)",
+			"icon" : "https://geek-salon.com/assets/GithubIcon-01916a095b97d74e2894277dde1bc918a1d4509ed7f763612f05af7cda5df0ad.png"
+		}
+	]
+}
