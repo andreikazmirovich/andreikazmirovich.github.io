@@ -9,12 +9,20 @@
 			"icon" : "https://lh3.googleusercontent.com/proxy/XIfQroDwR9RPnqPCDRemzxWicvoHVQ6_TIT2b7Sel8f5ZpyPbbb5VKIBEv2UowG5-9_M63lvYQZCRd-Y=s110-p-k"
 		},
 		{
+			"name" : "TypeScript",
+			"icon" : "https://sdtimes.com/wp-content/uploads/2016/08/0831.sdt-typescript.jpeg"
+		},
+		{
 			"name" : "HTML5/CSS3",
 			"icon" : "http://122.165.104.216/rjtapps/v2/wp-content/uploads/2015/04/html5.jpg"
 		},
 		{
 			"name" : "Angular 4",
 			"icon" : "http://coreui.io/assets/img/logo-angularjs.png"
+		},
+		{
+			"name" : "Angular Material",
+			"icon" : "https://gae-angular-material-starter.appspot.com/p/modules/core/img/material-design-logo.png"
 		},
 		{
 			"name" : "Bootstrap 4",
@@ -27,6 +35,14 @@
 		{
 			"name" : "Less",
 			"icon" : "https://prepros.io/img/less-logo.png"
+		},
+		{
+			"name" : "Sass",
+			"icon" : "http://sass-lang.com/assets/img/styleguide/color-1c4aab2b.png"
+		},
+		{
+			"name" : "Gulp",
+			"icon" : "http://www.nolazybits.com/wp-content/uploads/2017/03/sfl_gulp-150x150.png"
 		},
 		{
 			"name" : "Git (GitHub)",
